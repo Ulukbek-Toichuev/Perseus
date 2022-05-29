@@ -1,4 +1,4 @@
 {
-    "Url":"http://127.0.0.1:8080",
-    "Vusers": "100"
+    "Url":"http://localhost:8080/albums",
+    "Vusers": "1000"
 }
