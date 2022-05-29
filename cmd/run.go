@@ -68,7 +68,7 @@ func runVusers(url string, parallelRequests int, pacing int) {
 	if parallelRequests > 0 && pacing > 0 {
 		wg.Add(parallelRequests)
 		for i := 0; i < parallelRequests; i++ {
-			time.Sleep(time.Duration(pacing) * time.Second)
+			time.Sleep(time.Duration(pacing) * time.Millisecond)
 			go sendGetRequest(url)
 			count++
 		}

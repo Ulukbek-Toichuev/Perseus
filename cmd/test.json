@@ -1,5 +1,5 @@
 {
     "Url":"http://localhost:8080/albums",
     "Requests":"100",
-    "Pacing":"0"
+    "Pacing":"100"
 }
